@@ -1,0 +1,33 @@
+# Build artifacts
+/build/
+*/build/
+*/*.o
+*/*.obj
+*/*.exe
+*/*.dll
+*/*.so
+*/*.dylib
+*.log
+
+# Dependencies
+/node_modules/
+/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiler specific
+*.ll
+*.s
+*.bc
