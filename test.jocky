@@ -1,0 +1,17 @@
+// Simple JOCKY test script
+query scan_system {
+    let mut suspicious_processes = 0;
+
+    // Enumerate processes
+    enumerate_processes();
+
+    // Simple conditional
+    if (suspicious_processes > 5) {
+        return true;
+    }
+
+    return false;
+}
+
+// Global variable declaration
+let threshold = 10;
